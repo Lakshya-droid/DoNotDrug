@@ -1,5 +1,5 @@
-var OpenComplainNetwork = artifacts.require("OpenComplainNetwork");
+var DonotDrug = artifacts.require("DonotDrug");
 
 module.exports = function(deployer) {
-  deployer.deploy(OpenComplainNetwork);
+  deployer.deploy(DonotDrug);
 };

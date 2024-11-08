@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract OpenComplainNetwork {
+contract DonotDrug {
     enum Status { Pending, Accepted, Resolved, Proposed }
     
     struct Complain {
@@ -27,7 +27,7 @@ contract OpenComplainNetwork {
     address private superuser;
     mapping(uint => address) private complainSolver;
     
-    function OpenComplainNetwork() public {
+    function DonotDrug() public {
         superuser = msg.sender;
         complainCounter = 0;
     }

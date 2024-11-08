@@ -15,7 +15,7 @@ import Accounts from './Components/Pages/Accounts/accounts'
 
 import Web3 from 'web3'
 
-import ContractsABIJSON from './truffle-contract/build/contracts/OpenComplainNetwork.json'
+import ContractsABIJSON from './truffle-contract/build/contracts/DonotDrug.json'
 
 console.log(ContractsABIJSON)
 
